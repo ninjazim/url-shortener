@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>URL Shortener - ninjazim</title>
+      <link rel="shortcut icon" href="https://cdn.glitch.com/efa7ef2b-e9e2-416f-bb46-f1be91b8e690%2Fsidecar-favicon.ico?1509591838955" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <img src="https://cdn.glitch.com/efa7ef2b-e9e2-416f-bb46-f1be91b8e690%2FSmall-sidecar.png?1509591839056" width="250px"/>
+         <h1>URL Shortener</h1>
+          <ul>
+            <li><strong>Generating short URLs:</strong></li>
+            <li>Pass a URL as a parameter to <span>/new/:URL</span></li>
+            <li>Properly formatted URLs will return a new short URL</li>
+            <li>URLs that are not properly formatted will return an error</li>
+            <li><em>Example of a properly formatted URL: <span>https://www.example.com</span></em></li>
+            <li><em>Example of an improperly formatted URL: <span>www.example.com</span></em></li>
+        </ul>
+         <ul>
+
+            <li><strong>Using short URLs:</strong></li>
+            <li>Navigating to a valid short URL will redirect you to the full URL</li>
+            <li>Entering an unrecognized short URL will return an error</li>
+        </ul>
+<!--         <h3>Visit <a href="/api/headers">/api/headers</a> to view your IP, Language, and OS version.</h3> -->
+      </div>
+
+      <div class="footer">
+       <p>
+         <a href="https://www.freecodecamp.org/ninjazim">freecodecamp.org/ninjazim</a>
+       </p>
+       <p>
+         <a href="https://github.com/ninjazim/url-shortener">github.com/ninjazim/url-shortener</a>
+       </p>
+
+     </div>
+   </body>
+
+</html>
